@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {{-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> --}}
     
-    <title>Task</title>
+    <title>Seize the day</title>
 </head>
 <body>
-     
+
     <div id="root"></div>
     
     <script src="{{ mix('js/homepage.js') }}"></script>
