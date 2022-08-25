@@ -1,0 +1,19 @@
+table,
+th,
+td {
+    margin-top: 2em;
+    border: 1px solid #fff;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 15px;
+    width: 7em;
+}
+.data{
+    margin-top: 1em;
+}
+.phone_no{
+    width: 12em;
+}

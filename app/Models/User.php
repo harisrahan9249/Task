@@ -23,6 +23,15 @@ class User extends Authenticatable
         'password',
     ];
 
+    public function address(){
+        return $this->hasOne(UserAddress::class,'user_id','user_id');
+    }
+
+    
+    public function supplie(){
+        return $this->hasOne(Supplier::class,'supplier_id','supplier_id');
+    }
+
     /**
      * The attributes that should be hidden for serialization.
      *

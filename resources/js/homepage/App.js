@@ -1,12 +1,20 @@
 import React from 'react'
 
+import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
+import Invoice from '../Pages/Invoice';
+import User_info from '../Pages/User_info';
+import Navbar from '../Component/Navbar';
 
 function App() {
   return (
-    <div>
-      <h2>Home</h2>
+    <Router>
+      <Navbar />
       
-    </div>
+      <Routes>
+        <Route path='/' element={<User_info />} />
+        <Route path='/Invoice_Making' element={<Invoice />} />
+      </Routes>
+    </Router>
   )
 }
 

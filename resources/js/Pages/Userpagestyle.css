@@ -1,0 +1,12 @@
+body{
+    background: burlywood;
+}
+.main_text{
+    text-align: center;
+}
+.data{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2em;
+}

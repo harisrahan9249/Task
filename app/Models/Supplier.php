@@ -11,4 +11,6 @@ class Supplier extends Model
    
     public $timestamps = false;
     protected $fillable = ['phone', 'company_ICO', 'website','company_name'];
+
+    
 }
