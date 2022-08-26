@@ -8,7 +8,8 @@ function Navbar() {
         <div className="logo">Easy Invoice </div>
         <nav className='Links'>
             <Link className='Link' to='/'>User Data</Link>
-            <Link className='Link' to='/Invoice_Making'>Supliers Data</Link>
+            <Link className='Link' to='/Suppliers'>Supliers Data</Link>
+            <Link className='Link' to='/Invoice_Making'>Invoice_Making</Link>
 
         </nav>
       
